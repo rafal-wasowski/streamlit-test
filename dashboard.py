@@ -31,15 +31,23 @@ colleagues_data = {
     "Sales": [50, 45, 40, 35, 30]
 }
 
-# Styles
+# Custom CSS to enhance the UI
 st.markdown("""
     <style>
         .main {background-color: #f5f5f5;}
-        .title {font-size: 2em; font-weight: bold; margin-bottom: 0.5em;}
-        .header {font-size: 1.5em; font-weight: bold; margin-bottom: 0.5em;}
-        .subheader {font-size: 1.25em; font-weight: bold; margin-bottom: 0.5em;}
-        .metric {font-size: 1.25em; margin-bottom: 0.5em;}
-        .text {font-size: 1em; margin-bottom: 0.25em;}
+        .title {font-size: 2.5em; font-weight: bold; color: #2E4053; margin-bottom: 0.5em; text-align: center;}
+        .header {font-size: 1.75em; font-weight: bold; color: #2874A6; margin-top: 1em; margin-bottom: 0.5em;}
+        .subheader {font-size: 1.25em; font-weight: bold; color: #2E86C1; margin-bottom: 0.5em;}
+        .metric {font-size: 1.25em; color: #5D6D7E; margin-bottom: 0.5em;}
+        .text {font-size: 1em; color: #566573; margin-bottom: 0.25em;}
+        .stApp {background-color: #F2F4F4;}
+        .block-container {
+            padding: 1em 2em;
+            background-color: #FFFFFF;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .table {margin-bottom: 1.5em;}
     </style>
 """, unsafe_allow_html=True)
 
